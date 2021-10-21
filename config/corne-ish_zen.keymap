@@ -18,24 +18,15 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                symbo_layer {
-                        label = "SYMBOL";
+                navig_layer {
+                        label = "NAVIG";
                         bindings = <
-        &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp UNDER &kp MINS &kp EQUAL &kp PLUS
-        &kp trans &kp KT   &kp LPAR &kp DQT &kp RPAR &kp GT     &kp n0    &kp n1   &kp n2    &kp n3   &kp n4 &kp PIPE
-        &trans    &kp LBKT &kp LBRC &kp SQT &kp RBRC &kp RBKT   &kp n5    &np n6   &kp n7    &kp n8   &kp n9 &STAR 
-           &trans &mo META &trans                                     &trans &trans &trans
+        &trans &none &none &none &none &none    &none &none &none &none &trans &none
+        &trans &none &none &none &none &none    &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+        &trans &trans &trans &trans &trans &trans    &kp HOME &kp PG_DN &kp PG_UP &kp END &trans &trans
+                &trans &trans &trans              &trans &mo META &trans
                         >;
                 };
 
-                meta_layer {
-                        label = "META";
-                        bindings = <
-        &reset  &none   &none &none &none &none         &none &none &none &none &none &none
-        &kp F1      &kp F2  &kp F3   &kp F4    &kp F5 &kp F6    &kp F7   &kp F8   &kp F9 &kp F10   &kp F11 &kp F12
-        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none &none &none &none &none &none
-                &trans &trans &trans                    &trans &trans &trans
-                        >;
-                };
         };
 };
