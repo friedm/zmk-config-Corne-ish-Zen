@@ -27,4 +27,5 @@
            &trans &mo META &trans                                     &trans &trans &trans
                         >;
                 };
+	};
 };
