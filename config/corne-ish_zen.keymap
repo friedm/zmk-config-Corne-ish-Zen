@@ -11,7 +11,7 @@
 
 #define DEFAULT 0
 #define NAVIG 1
-#define SYMBO 2
+#define SYMBOL 2
 #define META 3
 
 / {
