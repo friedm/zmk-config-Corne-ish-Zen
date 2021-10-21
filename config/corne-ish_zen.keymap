@@ -27,6 +27,7 @@
 		   &kp LGUI &lt NAVIG SPACE &mt LALT TAB    &kp BKSP &mo SYMBO &kp INS	
 			>;
 		};
+
 		navig_layer {
 			label = "NAVIG";
 			bindings = <
@@ -36,6 +37,7 @@
    		&trans &trans &trans		  &trans &mo META &trans
 			>;
 		};
+
 		symbo_layer {
 			label = "SYMBOL";
 			bindings = <
@@ -45,6 +47,7 @@
 	   &trans &mo META &trans				      &trans &trans &trans
 			>;
 		};
+
 		meta_layer {
 			label = "META";
 			bindings = <
@@ -54,4 +57,5 @@
 		&trans &trans &trans 			&trans &trans &trans
 			>;
 		};
+	};
 };
