@@ -22,8 +22,8 @@
                         label = "SYMBOL";
                         bindings = <
         &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp UNDER &kp MINUS &kp EQUAL &kp PLUS
-        &kp trans &kp LT   &kp LPAR &kp DQT &kp RPAR &kp GT     &kp n0    &kp n1   &kp n2    &kp n3   &kp n4 &kp PIPE
-        &trans    &kp LBKT &kp LBRC &kp SQT &kp RBRC &kp RBKT   &kp n5    &np n6   &kp n7    &kp n8   &kp n9 &kp STAR 
+        &kp trans &kp LT   &kp LPAR &kp DQT &kp RPAR &kp GT     &kp N0    &kp N1   &kp N2    &kp N3   &kp N4 &kp PIPE
+        &trans    &kp LBKT &kp LBRC &kp SQT &kp RBRC &kp RBKT   &kp N5    &np N6   &kp N7    &kp N8   &kp N9 &kp STAR 
            &trans &mo META &trans                                     &trans &trans &trans
                         >;
                 };
